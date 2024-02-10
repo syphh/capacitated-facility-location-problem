@@ -6,7 +6,8 @@ This problem is called the Capacitated Facility Location Problem (CFLP), and sol
 In this repository we solve it using constraint programming in Python (OR-Tools library).
 
 The mathematical model is as follows:\
-![model](model.png)
+<img src="model.png" width="500">
+
 $x_{i}$ says if yes or no we decide to build the facility i\
 $a_{ij}$ is how much demand of customer $j$ we satisfy with facility $i$\
 $t_{ij}$ is the transportation cost for one unit of demand between facility $i$ and customer $j$\
